@@ -5,28 +5,13 @@ Genomics training week notes and install instructions
 ### WSL
 This repo assumes a windows laptop with Ubuntu 20.04 LTS up an running under Windows Subsystem fro Linux [WSL](https://learn.microsoft.com/en-us/windows/wsl/install).
 
-
 ----
 
-## Conda
-- Basics taken from [here](https://gist.github.com/kauffmanes/5e74916617f9993bc3479f401dfec7da)
-- Anaconda3-2022.10-Linux-x86_64.sh	737.6M	2022-10-17 16:15:39	e7ecbccbc197ebd7e1f211c59df2e37bc6959d081f2235d387e08c9026666acd
-
-https://repo.anaconda.com/miniconda/Miniconda3-4.2.12-Linux-x86_64.sh
-
-
-### INSTALL
+## System tools
 ```bash
-wget https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh
-bash Anaconda3-2022.10-Linux-x86_64.sh
+sudo apt-get install --yes --force-yes gcc g++
 ```
 
-----
-## RESTART WSL
-----
-```bash
-conda config --add channels bioconda
-```
 ----
 
 ## Flye
@@ -34,7 +19,8 @@ Flye github as key guide [here](https://github.com/fenderglass/Flye/blob/flye/do
 
 ### INSTALL
 ```bash
-conda install -c bioconda flye
+wget https://github.com/fenderglass/Flye/archive/refs/tags/2.9.1.tar.gz
+tar -zxvf 2.9.1.tar.gz
 ```
 
 ----
@@ -44,6 +30,8 @@ Details [here](https://github.com/DerrickWood/kraken2/)
 
 ### INSTALL
 ```bash
-conda install -c bioconda kraken2
+wget https://github.com/DerrickWood/kraken2/archive/refs/tags/v2.1.2.tar.gz
+tar -zxvf v2.1.2.tar.gz
+bash kraken2-2.1.2/install_kraken2.sh ~/kraken2
 ```
 
