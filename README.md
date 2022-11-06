@@ -13,10 +13,10 @@ basics taken from [here](https://gist.github.com/kauffmanes/5e74916617f9993bc347
 Anaconda3-2022.10-Linux-x86_64.sh	737.6M	2022-10-17 16:15:39	e7ecbccbc197ebd7e1f211c59df2e37bc6959d081f2235d387e08c9026666acd
 
 ### INSTALL
-'''bash
+```bash
 wget https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh
 bash Anaconda3-2022.10-Linux-x86_64.sh
-'''
+```
 
 ----
 ## RESTART WSL
