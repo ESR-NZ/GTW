@@ -32,6 +32,7 @@ Details [here](https://github.com/DerrickWood/kraken2/)
 ```bash
 wget https://github.com/DerrickWood/kraken2/archive/refs/tags/v2.1.2.tar.gz
 tar -zxvf v2.1.2.tar.gz
-bash kraken2-2.1.2/install_kraken2.sh ~/kraken2
+cd kraken2-2.1.2/
+bash install_kraken2.sh ~/kraken2
 ```
 
