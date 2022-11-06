@@ -22,6 +22,10 @@ bash Anaconda3-2022.10-Linux-x86_64.sh
 ----
 ## RESTART WSL
 ----
+```bash
+conda config --add channels bioconda
+```
+----
 
 ## Flye
 Flye github as key guide [here](https://github.com/fenderglass/Flye/blob/flye/docs/INSTALL.md)
