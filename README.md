@@ -27,13 +27,17 @@ bash Anaconda3-2022.10-Linux-x86_64.sh
 Flye github as key guide [here](https://github.com/fenderglass/Flye/blob/flye/docs/INSTALL.md)
 
 ### INSTALL
+```bash
 conda install -c bioconda flye
+```
 
 ----
 
 ## Kraken2
-git clone https://github.com/DerrickWood/kraken2/
-cd kraken2
-bash install_kraken2.sh
+Details [here](https://github.com/DerrickWood/kraken2/)
 
+### INSTALL
+```bash
+conda install -c bioconda kraken2
+```
 
