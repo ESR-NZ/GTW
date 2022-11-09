@@ -56,4 +56,4 @@ wget https://github.com/fenderglass/Flye/blob/flye/flye/tests/data/ecoli_500kb_r
 ```
 
 
-
+https://drive.google.com/drive/folders/1-35iMOoi-n-5DttdtccBgFU4mudXKXwk?usp=sharing
