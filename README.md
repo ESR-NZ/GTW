@@ -39,6 +39,6 @@ bash install_kraken2.sh ~/kraken2
 
 
 ```bash
-cd ../
-cp ~/kraken2{,-build,-inspect} ~/bin
+cd ~/
+cp ~/kraken2/kraken2{,-build,-inspect} ~/bin
 ```
