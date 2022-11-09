@@ -42,3 +42,15 @@ bash install_kraken2.sh ~/kraken2
 cd ~/
 sudo cp ~/kraken2/kraken2{,-build,-inspect} /usr/bin/
 ```
+
+```bash
+curl -O ftp://ftp.ccb.jhu.edu/pub/data/kraken2_dbs/old/minikraken2_v2_8GB_201904.tgz
+mkdir krakenDB
+cd krakenDB
+ls
+mv ../minikraken2_v2_8GB_201904.tgz .
+tar -xvzf minikraken2_v2_8GB_201904.tgz
+```
+
+
+
