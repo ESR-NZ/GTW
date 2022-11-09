@@ -9,7 +9,8 @@ This repo assumes a windows laptop with Ubuntu 20.04 LTS up an running under Win
 
 ## System tools
 ```bash
-sudo apt-get install --yes --force-yes gcc g++
+sudo apt-get install --yes gcc g++
+sudo apt-get install --yes make
 ```
 
 ----
