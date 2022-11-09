@@ -54,6 +54,3 @@ wget https://refdb.s3.climb.ac.uk/kraken2-microbial/taxo.k2d
 ```bash
 wget https://github.com/fenderglass/Flye/blob/flye/flye/tests/data/ecoli_500kb_reads.fastq.gz
 ```
-
-
-https://drive.google.com/drive/folders/1-35iMOoi-n-5DttdtccBgFU4mudXKXwk?usp=sharing
