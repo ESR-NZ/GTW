@@ -22,6 +22,13 @@ Flye github as key guide [here](https://github.com/fenderglass/Flye/blob/flye/do
 ```bash
 wget https://github.com/fenderglass/Flye/archive/refs/tags/2.9.1.tar.gz
 tar -zxvf 2.9.1.tar.gz
+
+cd Flye-2.9.1
+
+sudo apt -y install zlib1g-dev
+
+sudo python3 setup.py install
+
 ```
 
 ----
