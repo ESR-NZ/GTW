@@ -40,5 +40,5 @@ bash install_kraken2.sh ~/kraken2
 
 ```bash
 cd ~/
-cp ~/kraken2/kraken2{,-build,-inspect} ~/bin
+sudo cp ~/kraken2/kraken2{,-build,-inspect} /usr/bin/
 ```
