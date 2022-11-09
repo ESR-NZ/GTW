@@ -37,3 +37,8 @@ cd kraken2-2.1.2/
 bash install_kraken2.sh ~/kraken2
 ```
 
+
+```bash
+cd ../
+cp ~/kraken2{,-build,-inspect} ~/bin
+```
